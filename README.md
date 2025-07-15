@@ -1,4 +1,7 @@
 # React + Vite
+### `npm install`
+### `npm run build`
+### `pm2 start "serve -s dist -l 3002" --name "vite-app"`
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
