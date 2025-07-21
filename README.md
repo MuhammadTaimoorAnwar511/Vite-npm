@@ -2,7 +2,8 @@
 ### `npm install`
 ### `npm run build`
 ### `pm2 start "serve -s dist -l 3002" --name "vite-app"`
-
+### `docker build -t <image name> .`
+### `docker run -d -p <host port>:<container port> --name <container name> <image name>`
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
